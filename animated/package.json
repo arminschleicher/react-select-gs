@@ -1,0 +1,11 @@
+{
+  "main": "dist/react-select-gs.cjs.js",
+  "module": "dist/react-select-gs.esm.js",
+  "browser": {
+    "./dist/react-select-gs.cjs.js": "./dist/react-select-gs.browser.cjs.js",
+    "./dist/react-select-gs.esm.js": "./dist/react-select-gs.browser.esm.js"
+  },
+  "preconstruct": {
+    "source": "../src/animated"
+  }
+}
